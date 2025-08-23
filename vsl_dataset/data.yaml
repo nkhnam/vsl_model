@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 22
+names: ['A', 'B', 'C', 'D', 'E', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'X', 'Y']
+
+roboflow:
+  workspace: ho-chi-minh-university-of-technology-siduh
+  project: viet-nam-sign-language-detection
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ho-chi-minh-university-of-technology-siduh/viet-nam-sign-language-detection/dataset/6
